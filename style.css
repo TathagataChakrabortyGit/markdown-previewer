@@ -1,0 +1,32 @@
+body {
+  background-color: #3a98b9;
+}
+
+.toolbar {
+  background-color: #93bfcf;
+  font-size: x-large;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+textarea,
+.preview {
+  min-height: 500px;
+  border-radius: 5px;
+  background-color: #eee9da;
+  padding: 0.5rem;
+}
+
+.preview img {
+    max-width: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.max {
+    cursor: pointer;
+}
